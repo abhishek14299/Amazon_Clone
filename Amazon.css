@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    height: 60px;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.border{
+    border: 1px transparent;
+}
+
+.border:hover{
+    border:1px white;
+}
+
+/* *logo box* */
+.nav-logo{
+    background-image: url("navLogo.png");
+    height: 50px;
+    width: 120px;
+    background-size: cover;
+}
+
+/* ********** */
+
+/* *location box* */
+
+.nav-location{
+    height: 50px;
+    width: 71px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-loc-icon{
+    margin-top: 6px;
+    font-size: large;
+}
+.navlocationbox{
+    display: flex;
+    flex-direction: column;
+}
+#deliver{
+    margin-left: 4px;
+    height: 14px;
+    width: 52px;
+    color: #CCCCCC;
+    font-size: 12px;
+    display: block;
+    font-family: sans-serif;
+}
+#location{
+    margin-top: 2px;
+    margin-left: 4px;
+    height: 16px;
+    width: 52px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* ****************** */
+
+
+/* *Nav Search Box* */
+
+.nav-search{
+    height: 40px;
+    width: 50%;
+    display: flex;
+    display: flex;
+    border-radius: 5%;
+}
+
+#nav-AmazonSearch{
+    width: 80%;
+    height: 100%;
+}
+
+#nav-all{
+    width: 50px;
+    height: 100%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    background-color: #E6E6E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav-search-option{
+    align-content: center;
+    font-family:sans-serif;text-align: center;
+
+}
+
+.nav-search-icon{
+    height: 100%;
+    width: 45px;
+    font-size: large;
+    background-color: #E5B011;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+/* ********************************** */
+
+/* *Sign in box* */
+
+.nav-signin{
+    height: 50px;
+    width: 132px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+    font-family: Verdana;
+}
+
+#nav-account{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* ************** */
+
+/* *Sign in box* */
+
+.nav-return{
+    height: 50px;
+    width: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+    font-family: Verdana;
+}
+
+#nav-order{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* ************** */
+
+
+/* *cart box* */
+
+.nav-cart{
+    height: 50px;
+    width: 100px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-cart-icon{
+    font-size: 30px;
+}
+
+#nav-cart-txt{
+    font-size: 14px;
+    font-weight: 700;
+    align-items: baseline;
+}
+/* ********************* */
+
+/* *Second nav box* */
+
+.second-nav{
+    height: 40px;
+    background-color: #232F3E ;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.snav-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.snav-all-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 8px;
+    font-family: Arial;
+    font-size: medium;
+}
+
+#snav-icon{
+    font-weight: 700;
+    margin-right: 4px;
+
+}
+
+#snav-all-option{
+    font-size: 20px;
+}
+
+/* **************** */
+
+/* main content */
+
+.hero-content{
+    height: 350px;
+    width: max-width;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.mainsection{
+    background-image: url("mainimg.jpg");
+    background-size: cover;
+    height: 350px;
+    width: 1600px;
+    display: flex;
+    align-items: end;    
+    padding-bottom: 20px;
+}
+.hero-redirect{
+    height: 40px;
+    width: 100%;
+    background-color: #F5F6F6;
+    font-family: Arial;
+    color: #0F1111;
+    font-size: 14px;
+    padding: 10px 14px 10px 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.hero-redirect a{
+    text-decoration: none;
+    color: #007185;
+}
+
+.hero-redirect a:hover{
+    font-weight: 500;
+    text-decoration: underline;
+    color: red;
+}
+
+/* ***************** */
+
+
+/* *cards box* */
+
+.main-cards{
+    width:max-width;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin-left: 5px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5%;
+    background-color: whitesmoke;
+    
+}
+
+.head-card{
+    color: #0F1111;
+    font-size: 21px;
+    font-family: Arial;
+    font-weight: 600;
+    align-self: start;
+    margin-left: 24px;
+    margin-bottom: 5px;
+}
+
+.head-card-sub{
+    color: #0F1111;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 24px;
+    margin-bottom: 5px;
+    align-self: flex-start;
+}
+
+.box-img{
+    height: 300px;
+    width: 350px;
+    background-size: cover;
+    padding: 20px;
+}
+
+/* ************************ */
+
+/* footer */
+.footerweb{
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.back-to-top{
+    height: 40px;
+    width:100%;
+    background-color: #37475a;
+    color: white;
+    text-align: center;
+    align-items: end;
+    padding: 15px 0px 15px 0px;
+    font-size: 13px;
+    font-family: Arial;
+    position: relative;
+    font-weight: 600;
+}
+
+
+.main-footer{
+    height: 80px;
+    display: flex;
+    background-color: #121A22;
+    font-size: 12px;
+    font-family: Arial;
+    color:#DDDDDD;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.footer-link a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #DDDDDD;
+    padding: 0px 7.2px;
+}
+
+.footer-link{
+    font-weight: 600;
+    color: #DDDDDD;
+    padding: 0px 7.2px;
+    margin-top: 2px;
+}
